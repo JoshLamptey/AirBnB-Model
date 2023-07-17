@@ -3,6 +3,8 @@ import X from './images/image 12.png'
 import Star from './images/Star 1star.png'
 
 export default function Body(){
+   
+
     return(
         <section>
             <div className="Xperience1">
