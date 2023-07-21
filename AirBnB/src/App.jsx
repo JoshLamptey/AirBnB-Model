@@ -1,5 +1,8 @@
 import './App.css'
 import X from './images/image 12.png'
+import Y from './images/mountain-bike 1.png'
+import V from './images/wedding-photography 1.png'
+
 import Head from './head'
 import Hero from './hero'
 import Body from './Body'
@@ -16,13 +19,13 @@ function App() {
         price ="From 136$/"
         />
         <Body
-        img ={X}
-        name ="Life Lessons with Maliah Zaferes"
-        price ="From 13$/"
+        img ={Y}
+        name ="Group Mountiain Biking experience"
+        price ="From 125$/"
          />
         <Body 
-        img ={X}
-        name ="Life Lessons with Katie Zaferes"
+        img ={V}
+        name ="Learn wedding photography"
         price ="From 136$/"
         />
 </div>
