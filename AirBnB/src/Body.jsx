@@ -13,7 +13,7 @@ export default function Body({img,name,price}){
                     <img src= {Star}alt="" className="star" />
                     <span className="gray" >5.0</span>
                     <span className="gray">(6) • </span>
-                    <span>USA</span>
+                    <span>United States Of America</span>
                     </div>
                     <p>{name}
                         <br />
