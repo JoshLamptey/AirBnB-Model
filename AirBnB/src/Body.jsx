@@ -1,7 +1,7 @@
 import React from "react";
 import Star from './images/Star 1star.png'
 
-export default function Body({img,name,price}){
+export default function Body({img,name,price,country}){
    
 
     return(
@@ -13,7 +13,7 @@ export default function Body({img,name,price}){
                     <img src= {Star}alt="" className="star" />
                     <span className="gray" >5.0</span>
                     <span className="gray">(6) • </span>
-                    <span>United States Of America</span>
+                    <span>{country}</span>
                     </div>
                     <p>{name}
                         <br />
