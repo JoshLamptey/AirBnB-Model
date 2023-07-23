@@ -17,17 +17,28 @@ function App() {
         img ={X}
         name ="Life Lessons with Annie Zaferes"
         price ="From 136$/"
+        rating ={4.7}
+        reviewCount ={6}
         country="USA"
+
         />
         <Body
         img ={Y}
         name ="Group Mountiain Biking experience"
         price ="From 125$/"
+        rating ={4.5}
+        reviewCount ={6}
+        country="Canada"
+
          />
         <Body 
         img ={V}
         name ="Learn wedding photography"
         price ="From 136$/"
+        rating ={4.1}
+        reviewCount ={6}
+        country="Ireland"
+
         />
 </div>
     </div>
