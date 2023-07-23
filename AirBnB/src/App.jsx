@@ -17,6 +17,7 @@ function App() {
         img ={X}
         name ="Life Lessons with Annie Zaferes"
         price ="From 136$/"
+        country="USA"
         />
         <Body
         img ={Y}
