@@ -1,7 +1,7 @@
 import React from "react";
 import Star from './images/Star 1star.png'
 
-export default function Body({img,name,price,country}){
+export default function Body({img,name,price,country,rating,reviewCount}){
    
 
     return(
@@ -11,8 +11,8 @@ export default function Body({img,name,price,country}){
                 <section>
                     <div className="rating">
                     <img src= {Star}alt="" className="star" />
-                    <span className="gray" >5.0</span>
-                    <span className="gray">(6) • </span>
+                    <span className="gray" >{rating}</span>
+                    <span className="gray">({reviewCount})• </span>
                     <span>{country}</span>
                     </div>
                     <p>{name}
