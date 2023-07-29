@@ -20,6 +20,8 @@ export default function Body(props){
                         {props.description}
                         
                     <span className="bold">{props.price}</span> per person</p>
+                    <br />
+                    {props.OpenSpots} Open Spots left
                 </section>
             </div>
         </section> 
