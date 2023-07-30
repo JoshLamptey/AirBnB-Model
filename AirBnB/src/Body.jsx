@@ -15,12 +15,13 @@ export default function Body(props){
                     <span className="gray">({props.reviewCount})• </span>
                     <span>{props.location}</span>
                     </div>
+                    <h3>{props.title}</h3>
                     <p>
-                        <h3>{props.title}</h3>
                         {props.description}
+                        <br />
                         
                     <span className="bold">{props.price}</span> per person</p>
-                    <br />
+                    
                     {props.openSpots} Open Spots left
                 </section>
             </div>
