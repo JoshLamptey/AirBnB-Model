@@ -9,7 +9,7 @@ import Body from './Body'
 function App() {
     const DataElements = Data.map((element)=>{
         return <Body 
-        id ={element.id}
+        key ={element.id}
         title ={element.title}
         img = {element.coverImg}
         description ={element.description}
