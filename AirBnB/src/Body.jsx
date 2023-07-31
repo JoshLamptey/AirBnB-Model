@@ -15,7 +15,7 @@ export default function Body(props){
                     <span className="gray">({props.reviewCount})• </span>
                     <span>{props.location}</span>
                     </div>
-                    <h3>{props.title}</h3>
+                    <h3 className ="title">{props.title}</h3>
                     <p>
                         {props.description}
                         <br />
