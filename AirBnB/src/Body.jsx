@@ -2,12 +2,17 @@ import React from "react";
 import Star from './images/Star 1star.png'
 
 export default function Body(props){
-   console.log(props.openSpots)
+    let badgeText
+    if (props.openSpots === 0) {
+        badgeText = "SOLD OUT"
+    } else if (props.location === "Online") {
+        badgeText = "ONLINE"
+    }
 
     return(
         <section>
             <div className="Xperience1">
-              {props.openSpots===0 && <div className="badge">SOLD OUT</div>}
+              {badgeText && <div className="badge">{badgeText}</div>}
                 <img src= {props.img} alt="" className="X-img1" />
                 <section>
                     <div className="rating">
