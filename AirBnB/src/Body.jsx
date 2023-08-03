@@ -18,7 +18,7 @@ export default function Body(props){
                     <div className="rating">
                     <img src= {Star}alt="" className="star" />
                     <span className="gray" >{props.e.stats.rating}</span>
-                    <span className="gray">({props.e.statsreviewCount})• </span>
+                    <span className="gray">({props.e.stats.reviewCount})• </span>
                     <span>{props.e.location}</span>
                     </div>
                     <h3 className ="title">{props.e.title}</h3>
