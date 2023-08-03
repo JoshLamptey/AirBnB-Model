@@ -6,19 +6,13 @@ import Head from './head'
 import Hero from './hero'
 import Body from './Body'
 
+
 function App() {
-    const DataElements = Data.map((element)=>{
+    const DataElements = Data.map((e)=>{
         return <Body 
-        key ={element.id}
-        title ={element.title}
-        img = {element.coverImg}
-        description ={element.description}
-        price ={element.price}
-        rating ={element.stats.rating}
-        reviewCount={element.stats.reviewCount}
-        location ={element.location}
-        openSpots ={element.openSpots}
-        
+        key ={e.id}
+        e = {e}
+       
         />
     })
 
